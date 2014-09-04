@@ -28,11 +28,11 @@
             <th>X||Y</th>
             <th>X^Y</th>
             <th>X^Y^Y</th>
-            <th>X^y^x</th>
-            <th>!(x&&y)</th>
+            <th>X^Y^X</th>
+            <th>!(X&&Y)</th>
             <th>!X||!Y</th>
-            <th>!(x||y)</th>
-            <th>!X&&!y</th>
+            <th>!(X||Y)</th>
+            <th>!X&&!Y</th>
          </tr><!-- the table row is closed (</th>) after the last <td> element--><!--this is an HTML comment-->
          <?php
             $x=true;
