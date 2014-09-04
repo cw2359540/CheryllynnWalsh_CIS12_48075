@@ -24,7 +24,7 @@
             <th>Y</th>
             <th>!X</td>
             <th>!Y</th>
-            <td>X&&Y</th>
+            <th>X&&Y</th>
             <th>X||Y</th>
             <th>X^Y</th>
             <th>X^Y^Y</th>
