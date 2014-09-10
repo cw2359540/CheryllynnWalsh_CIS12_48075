@@ -3,7 +3,7 @@
 		Cheryllynn Walsh
 		September 8, 2014
 		Purpose: Illustrate Branching Constructs
-	\*
+	*/
 ?>
 <!doctype html>
 <html>
