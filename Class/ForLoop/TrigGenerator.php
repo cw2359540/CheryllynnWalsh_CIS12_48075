@@ -11,7 +11,7 @@
 	<input name="angStrt" type="text"/>Angel Start (Deg)</br>
     <input name="angEnd" type="text"/>Angle End (Deg)</br>
     <input name="angInc" type="text"/>Angle Increment (Deg)</br>
-    <input name="Calculate" type="submit"/>
+    <input name="Calculate and Display" type="submit"/>
 </form>
 </body>
 </html>

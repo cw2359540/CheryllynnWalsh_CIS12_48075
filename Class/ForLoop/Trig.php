@@ -32,16 +32,16 @@
 	//For- Loop
 	for($angle=$angStrt;$angle<=$angEnd;$angle+=$angInc) {
 		echo "<tr>";
-		echo "</td>$angle</td>";
+		echo "<td>$angle</td>";
 		//Calculate
-		$rad=number_format($angle*atan(1)/45);
+		$rad=number_format($angle*atan(1)/45,4);
 		$sine=number_format(sin($rad),4);
 		$cosine=number_format(cos($rad),4);
 		$tangent=number_format(tan($rad),4);
 		echo "<td>$rad</td>";
 		echo "<td>$sine</td>";
 		echo "<td>$cosine</td>";
-		echo"<td>$tangent</td>";
+		echo "<td>$tangent</td>";
 		echo "</tr>";
 	}
 ?>
