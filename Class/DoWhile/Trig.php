@@ -30,7 +30,7 @@
     </tr>
 <?php
 	//For- Loop
-	// forfor($angle=$angStrt;$angle<=$angEnd;$angle+=$angInc) {
+	//for($angle=$angStrt;$angle<=$angEnd;$angle+=$angInc) {
 	$angle=$angeStrt;
 	do{
 		echo "<tr>";
