@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Shopping Comments</title>
+</head>
+
+<body>
+
+<div class="comments" id="comments"></div>
+
+  <form accept-charset="UTF-8" action="/snippets/shopping-cart-checkout-widget/comments#new_comment" class="new-comment" data-remote="true" data-type="script" id="new_comment" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;"></div>
+  <h3>Leave a comment</h3>
+
+  <label for="comment_name">
+    Name *
+    <input id="comment_name" maxlength="50" name="comment[name]" size="50" type="text" />
+</label>
+  <label for="comment_email">
+    Email * <small>(will not be published)</small>
+    <input id="comment_email" maxlength="50" name="comment[email]" size="50" type="email" />
+</label>
+  <label for="comment_url">
+    Website
+    <input id="comment_url" maxlength="50" name="comment[url]" size="50" type="url" />
+</label>
+  <label for="comment_content">
+    Comment *
+    <textarea cols="40" id="comment_content" maxlength="2000" name="comment[content]" rows="20">
+</textarea>
+</label>
+  <input data-disable-with="Submitting..." name="commit" type="submit" value="Submit Comment">
+</form>
+
+</body>
+</html>

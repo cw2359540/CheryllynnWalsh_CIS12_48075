@@ -1,0 +1,40 @@
+<!--doctype html-->
+<html>
+<head>
+<!--meta charset="utf-8"-->
+<title>Table Data Based</title>
+</head>
+<body>
+<?php
+function getUsersRows($result)
+{
+   $tableRows = "";
+   foreach ($result as $row)
+   {
+      $tableRows .= "<tr>\n" .
+       "<td>" . $row['user']   . "</td>" .
+       "<td>" . $row['lastname'] . "</td>" .
+       "<td>" . $row['firstname'] . "</td>" .
+       "<td>" . "$" . number_format($row['telephone'], 2)  . "</td>" .
+       "</tr>";
+   }
+   return $tableRows;
+}
+
+<?php
+	<h1>Table: Member name</h1>
+<table border="1" summary="users table">
+  <caption>Users Table</caption>
+  <tr>
+    <th>User</th>
+	<th>Username</th>
+	<th>firstname</th>
+	<th>telephone</th>
+  </tr>
+  <?php echo getUsers(); ? >
+</table>
+
+?>
+
+</body>
+</html>
