@@ -8,127 +8,129 @@
 </head>
 
 <style>
-* {
-	border:0;
-	margin:0;
-	padding:0;
-}
+/*body*/
 
-/* general */
-a {
-	color:black;
-	text-decoration:none;
-}
-
-a:hover {
-	color:black;
-	text-decoration:none;
-}
-
-/* body */
 body {
-	background:	white;
-	color:#555;
-	font:0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+	background-image: url(perolas.jpg); 
+	font-size: 220%;
+	background-color: white;
+	Color: black;
+	font: 0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
 }
 
-/* header */
+/*header*/
 #header {
-	border-bottom:1px solid black;
-	height:80px;
-	margin:0 auto;
-	width:751px;
-}
-#header h1 {
-	color:purple;
-	font-size:300%;
-	letter-spacing:-3px;
-	text-align:right;
-	padding:5px;
-	margin-bottom:-20px;
-}
-#header h2 {
-	color:#FF3399;
-	font-size:200%;
-	letter-spacing:-2px;
-	text-align:right;
+	height:130px;
+	background:#9999FF;
+	border:1px solid #CCC;
+	width:960px;
+	margin:0px auto;
 }
 
-/* navigation */
-#navigation {
-	background:#CC66FF;
-	border-right:1px solid black;
-	margin:0 auto;
-	width:750px;
-	height:40px;
-	list-style:none;
+#header h1	{
+	color: purple;
+	font-size: 300%;
+	text-align:center;
+	margin-bottom: -20px;
 }
-#navigation li {
-	border-left:1px solid black;
-	float:left;
-	width:149px;
-	list-style:none;
+
+#header h2 {
+	color: white;
+	font-size: 200%;
+	text-align: center;
 }
+
+/*h1-h10*/
+
+h1	{
+	color: purple;
+	font-size: 300%;
+}
+
+/*p*/
+p {
+    font-size: 20px;
+}
+
+/*navigation*/
+#navigation	{
+	float: center;
+    padding: 0px;
+    width: 180px;
+    font-size: 18px;
+    font-family: Arial;
+	background: #9999FF;
+	
+}
+
+#navigation	li	{
+	border-left: 2px solid black;
+	float: center;
+	width: 149px;
+	list-style: none;
+}
+
+#navigation	{
+	border-left: 5px solid purple;
+	float: right;
+}
+
 #navigation a {
 	color:black;
-	display:block;
-	line-height:40px;
-	text-align:center;
+	displau: block;
+	line-height: 40px;
+	text-align: center;
 }
+
 #navigation a:hover {
-	background:white;
-	color:purple;
-}
-#navigation .active {
-	background:black;
-	color:black;
+		background: purple;
+		color: #9999FF;
 }
 
-/* content */
-#content {
-	background: white;
+
+/*content*/
+#content	{
+	background: #9999FF;
 	height:auto;
-	margin:0 auto;
-	padding:0 0 20px;
-	width:751px;
-}
-#content h1 {
-	border-bottom:2px dashed purple;
-	font-size:1.8em;
-	padding:20px 0 0;
-}
-#content p {
-	padding:20px 20px 0;
+	margin: 10px auto;
+	padding: 0 0 20px;
+	width: 751px;
 }
 
-/* footer */
-#footer {
-	border-top:1px solid #CC66FF; 
-	height:50px;
-	margin:0 auto;
-	padding:10px;
-	text-align:center;
-	width:751px;
+#content h1	{
+	border-bottom: 2px dashed black;
+	font-sixe: 1.5em;
+	padding: 20px 0 0;
 }
 
-/* Added by Larry Ullman: */
-.error, .ad {
+#content {
+	text-align: center;
+}
+
+/*footer*/
+#footer	{
+	border-top: 2px solid black;
+	height: 50px;
+	margin: 0 auto;
+	padding: 10 px;
+	width: 751 px;
+}
+
+/*Added*/
+.error, .ad	{
 	font-weight: bold;
-	color: black
+	color: black;
 }
 
-input, select, .input {
+input, select, .input	{
 	padding: 5px;
 	font-weight: bold;
 	font-size: 1em;
 	color: purple;
 	background: #FFFFFF;
-	border:1px dotted #004080;
+	border: 1px dotted #004080;
 }
 
-p {
-    font-size: 150%;
-}
 
 </style>
 
@@ -149,282 +151,52 @@ p {
             
 
 </li>
-		</ul>
 	</div>
-	<div id="content">
-
+<div id="content">
 <?php
 	// ECHO out a heading
-             echo "<center><h1>Purchase</h1></center>";
-?>
+             echo "<center><h1>Do It Yourself</h1></center>";
+?> 
 
-<p>Hello,<br />
 
-<p>I hope you find something you like.<br />
-You can buy the bead jewelry the easiest way for you.</p>
+<br />
+<center><h2>Russian Spiral</h2></center>
 
-<p>U.S. Mail</p>
+<br />
+<center><img src="Russian Spiral.jpg" width="600" height="500" /></center>
+
+<b>To weave a Russian spiral rope:</b><br />
+<br />
+Begin by choosing a palette that includes two similar bead sizes. Here we&#8217;re going to use two 11/o colors, and one 8/o color. You can go up or down a size, and even use accent beads like pearls or crystals for the larger beads, so long as they have a compact shape that works with the smaller base beads.   <br />
+<br />
+On a comfortable length of beading thread, pick up a repeating pattern of two 11/o and one 8/o four times. You can increase the number of sets for a wider rope, but this pattern will create a tight tube that is perfect for necklace chains.<br />
+<br />
+<p align="center"><img src="https://lh3.googleusercontent.com/-Lq7HNrhoZhY/UIB50YmNMNI/AAAAAAAAFAo/0ZAvBmvxL_A/s315/Russian%2520Spiral%25201.JPG" alt="Russian Spiral Tutorial" title="Russian Spiral Tutorial">   <img src="https://lh4.googleusercontent.com/-k_YqMnqPHho/UIB5YvzpHlI/AAAAAAAAE_s/GNokPdN4dzs/s315/Russian%2520Spiral%25202.JPG" alt="How to Weave Russian Spiral" title="How to Weave Russian Spiral"></p><br />
+Stitch through all of the beads again to form a ring, and exit from an 11/o immediately following an 8/o. Pick up one 8/o and two 11/o. Unlike other spirals such as <a href="http://inspirationalbeading.blogspot.com/2010/08/beading-tutorial-spiral-peyote.html" title="Cellini Spiral and Tubular Peyote Tutorial">Cellini</a>, if you are using multiple colors always pick up the same color that you will be stitching into, not the same color that you are exiting. <br />
+<br />
+Stitch through the first 11/o bead after the next 8/o in the ring. Pull snug, and nudge the three new beads to the top of the ring. Don&#8217;t worry if the position isn&#8217;t perfect - the beadwork structure will start to form a tube naturally as you add more rounds.<br />
+<br />
+<p align="center"><img src="https://lh5.googleusercontent.com/-6o3U4irOFRc/UIB5YfG_I9I/AAAAAAAAE_w/G10KP9OULJw/s315/Russian%2520Spiral%25203.JPG" alt="Russian Spiral Rope Tutorial" title="Russian Spiral Rope Tutorial">   <img src="https://lh3.googleusercontent.com/-FbmRgExgI1Q/UIB5Y2NDQWI/AAAAAAAAFAA/h1on4z0CtEo/s315/Russian%2520Spiral%25204.JPG" alt="Russian Spiral Rope Step Up" title="Russian Spiral Rope Step Up"></p><br />
+Pick up one 8/o and two 11/o, and pass through the first 11/o in the next set. Pull snug. Continue around the ring. When you add the fourth and final set, pass through the first 11/o added in this round. Because this step-up ignores the original ring, it will reduce the number of sets in the tube by one, and convert the beadwork from even to odd-count. You will not need to step up again for the remainder of the rope.<br />
+<br />
+The beadwork may look a little messy at this point. One more round will secure the tubular shape, but if you&#8217;re having trouble seeing which way is up, try securing a stop bead to your tail thread as a reminder.<br />
+<br />
+<p align="center"><img src="https://lh3.googleusercontent.com/-fa4UTQBVO7w/UIB5ZJ0y5PI/AAAAAAAAE_0/w2gbyvuy0L8/s315/Russian%2520Spiral%25205.JPG" alt="Weaving a Russian Spiral Rope" title="Weaving a Russian Spiral Rope">   <img src="https://lh6.googleusercontent.com/-Fs2oMjxSUQM/UIB5ZftIZaI/AAAAAAAAE_4/GtadlMY7EnU/s315/Russian%2520Spiral%25206.JPG" alt="Three Color Russian Spiral Rope Pattern" title="Three Color Russian Spiral Rope Pattern"></p><br />
+Continue stitching, adding sets of three beads at a time, always stitching through the first 11/o bead of the set below, and adding colors in reverse. You can weave the first few rounds over a dowel if desired, but the tube comes together so quickly that it isn&#8217;t necessary. Within the first few rounds, you should be able to see the spiral pattern emerge. <br />
+<br />
+<p align="center"><img src="https://lh3.googleusercontent.com/-BKeMU5Oo8tA/UIB5aK0eZUI/AAAAAAAAFAI/nxMBWVD3xHA/s400/Russian%2520Spiral%25207.JPG" alt="Russian Spiral Tubular Netting Stitch" title="Russian Spiral Tubular Netting Stitch"></p><br />
+Pull snug after every stitch to create even tension. With Russian spiral, I like to leave my tail threads extra long, so that I can weave back through and snug up any loose spots. To finish the rope and secure the end of the tube, pick up one 8/o and just one 11/o in the final round. Stitch through all of the beads once or twice to secure the ring, and weave the remaining thread into the tube. Make sure to pass through both 11/o and 8/o beads as you weave, to securely anchor the tails.<br />
+<br />
+Have you used Russian spiral stitch before? What bead size combination is your favorite?<br />
 <br />
 
-<p>Telephone Order</p>
 <br />
 
-<p>E-Mail Order</p>
-<br />
 
-<?php # - register.php #2
-
-$page_title = 'Register';
-
-
-// Check for form submission:
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
-	require ('../mysqli_connect.php'); // Connect to the db.
-		
-	$errors = array(); // Initialize an error array.
-	
-	// Check for a first name:
-	if (empty($_POST['first_name'])) {
-		$errors[] = 'You forgot to enter your first name.';
-	} else {
-		$fn = mysqli_real_escape_string($dbc, trim($_POST['first_name']));
-	}
-	
-	// Check for a last name:
-	if (empty($_POST['last_name'])) {
-		$errors[] = 'You forgot to enter your last name.';
-	} else {
-		$ln = mysqli_real_escape_string($dbc, trim($_POST['last_name']));
-	}
-	
-	// Check for an email address:
-	if (empty($_POST['email'])) {
-		$errors[] = 'You forgot to enter your email address.';
-	} else {
-		$e = mysqli_real_escape_string($dbc, trim($_POST['email']));
-	}
-	
-	// Check for a password and match against the confirmed password:
-	if (!empty($_POST['pass1'])) {
-		if ($_POST['pass1'] != $_POST['pass2']) {
-			$errors[] = 'Your password did not match the confirmed password.';
-		} else {
-			$p = mysqli_real_escape_string($dbc, trim($_POST['pass1']));
-		}
-	} else {
-		$errors[] = 'You forgot to enter your password.';
-	}
-	
-	if (empty($errors)) { // If everything's OK.
-	
-		// Register the user in the database...
-		
-		// Make the query:
-		$q = "INSERT INTO users (first_name, last_name, email, pass, registration_date) VALUES ('$fn', '$ln', '$e', SHA1('$p'), NOW() )";		
-		$r = @mysqli_query ($dbc, $q); // Run the query.
-		if ($r) { // If it ran OK.
-		
-			// Print a message:
-			echo '<h1>Thank you!</h1>
-		<p>You are now registered. In Chapter 12 you will actually be able to log in!</p><p><br /></p>';	
-		
-		} else { // If it did not run OK.
-			
-			// Public message:
-			echo '<h1>System Error</h1>
-			<p class="error">You could not be registered due to a system error. We apologize for any inconvenience.</p>'; 
-			
-			// Debugging message:
-			echo '<p>' . mysqli_error($dbc) . '<br /><br />Query: ' . $q . '</p>';
-						
-		} // End of if ($r) IF.
-		
-		mysqli_close($dbc); // Close the database connection.
-
-		// Include the footer and quit the script:
-		include ('includes/footer.html'); 
-		exit();
-		
-	} else { // Report the errors.
-	
-		echo '<h1>Error!</h1>
-		<p class="error">The following error(s) occurred:<br />';
-		foreach ($errors as $msg) { // Print each error.
-			echo " - $msg<br />\n";
-		}
-		echo '</p><p>Please try again.</p><p><br /></p>';
-		
-	} // End of if (empty($errors)) IF.
-	
-	mysqli_close($dbc); // Close the database connection.
-
-} // End of the main Submit conditional.
-?>
-<h1>Register</h1>
-<form action="register.php" method="post">
-	<p>First Name: <input type="text" name="first_name" size="15" maxlength="20" value="<?php if (isset($_POST['first_name'])) echo $_POST['first_name']; ?>" /></p>
-	<p>Last Name: <input type="text" name="last_name" size="15" maxlength="40" value="<?php if (isset($_POST['last_name'])) echo $_POST['last_name']; ?>" /></p>
-	<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>"  /> </p>
-	<p>Password: <input type="password" name="pass1" size="10" maxlength="20" value="<?php if (isset($_POST['pass1'])) echo $_POST['pass1']; ?>"  /></p>
-	<p>Confirm Password: <input type="password" name="pass2" size="10" maxlength="20" value="<?php if (isset($_POST['pass2'])) echo $_POST['pass2']; ?>"  /></p>
-	<p><input type="submit" name="submit" value="Register" /></p>
-</form>
-
-
-<?php # - view_users.php #2
-
-$page_title = 'View the Current Users';
-include ('includes/header.html');
-
-// Page header:
-echo '<h1>Registered Users</h1>';
-
-require ('../mysqli_connect.php'); // Connect to the db.
-		
-// Make the query:
-$q = "SELECT CONCAT(last_name, ', ', first_name) AS name, DATE_FORMAT(registration_date, '%M %d, %Y') AS dr FROM users ORDER BY registration_date ASC";		
-$r = @mysqli_query ($dbc, $q); // Run the query.
-
-// Count the number of returned rows:
-$num = mysqli_num_rows($r);
-
-if ($num > 0) { // If it ran OK, display the records.
-
-	// Print how many users there are:
-	echo "<p>There are currently $num registered users.</p>\n";
-
-	// Table header.
-	echo '<table align="center" cellspacing="3" cellpadding="3" width="75%">
-	<tr><td align="left"><b>Name</b></td><td align="left"><b>Date Registered</b></td></tr>
-';
-	
-	// Fetch and print all the records:
-	while ($row = mysqli_fetch_array($r, MYSQLI_ASSOC)) {
-		echo '<tr><td align="left">' . $row['name'] . '</td><td align="left">' . $row['dr'] . '</td></tr>
-		';
-	}
-
-	echo '</table>'; // Close the table.
-	
-	mysqli_free_result ($r); // Free up the resources.	
-
-} else { // If no records were returned.
-
-	echo '<p class="error">There are currently no registered users.</p>';
-
-}
-
-mysqli_close($dbc); // Close the database connection.
-
-?>
-
-<?php # - password.php
-// This page lets a user change their password.
-
-$page_title = 'Change Your Password';
-include ('includes/header.html');
-
-
-if ($_SERVER['REQUEST_METHOD'] == 'POST') {
-
-	require ('../mysqli_connect.php'); // Connect to the db.
-		
-	$errors = array(); // Initialize an error array.
-	
-	// Check for an email address:
-	if (empty($_POST['email'])) {
-		$errors[] = 'You forgot to enter your email address.';
-	} else {
-		$e = mysqli_real_escape_string($dbc, trim($_POST['email']));
-	}
-
-	// Check for the current password:
-	if (empty($_POST['pass'])) {
-		$errors[] = 'You forgot to enter your current password.';
-	} else {
-		$p = mysqli_real_escape_string($dbc, trim($_POST['pass']));
-	}
-
-	// Check for a new password and match 
-	// against the confirmed password:
-	if (!empty($_POST['pass1'])) {
-		if ($_POST['pass1'] != $_POST['pass2']) {
-			$errors[] = 'Your new password did not match the confirmed password.';
-		} else {
-			$np = mysqli_real_escape_string($dbc, trim($_POST['pass1']));
-		}
-	} else {
-		$errors[] = 'You forgot to enter your new password.';
-	}
-	
-	if (empty($errors)) { // If everything's OK.
-
-		// Check that they've entered the right email address/password combination:
-		$q = "SELECT user_id FROM users WHERE (email='$e' AND pass=SHA1('$p') )";
-		$r = @mysqli_query($dbc, $q);
-		$num = @mysqli_num_rows($r);
-		if ($num == 1) { // Match was made.
-	
-			// Get the user_id:
-			$row = mysqli_fetch_array($r, MYSQLI_NUM);
-
-			// Make the UPDATE query:
-			$q = "UPDATE users SET pass=SHA1('$np') WHERE user_id=$row[0]";		
-			$r = @mysqli_query($dbc, $q);
-			
-			if (mysqli_affected_rows($dbc) == 1) { // If it ran OK.
-
-				// Print a message.
-				echo '<h1>Thank you!</h1>
-				<p>Your password has been updated. In Chapter 12 you will actually be able to log in!</p><p><br /></p>';	
-
-			} else { // If it did not run OK.
-
-				// Public message:
-				echo '<h1>System Error</h1>
-				<p class="error">Your password could not be changed due to a system error. We apologize for any inconvenience.</p>'; 
-	
-				// Debugging message:
-				echo '<p>' . mysqli_error($dbc) . '<br /><br />Query: ' . $q . '</p>';
-	
-			}
-
-			mysqli_close($dbc); // Close the database connection.
-
-			// Include the footer and quit the script (to not show the form).
-			include ('includes/footer.html'); 
-			exit();
-				
-		} else { // Invalid email address/password combination.
-			echo '<h1>Error!</h1>
-			<p class="error">The email address and password do not match those on file.</p>';
-		}
-		
-	} else { // Report the errors.
-
-		echo '<h1>Error!</h1>
-		<p class="error">The following error(s) occurred:<br />';
-		foreach ($errors as $msg) { // Print each error.
-			echo " - $msg<br />\n";
-		}
-		echo '</p><p>Please try again.</p><p><br /></p>';
-	
-	} // End of if (empty($errors)) IF.
-
-	mysqli_close($dbc); // Close the database connection.
-		
-} // End of the main Submit conditional.
-?>
-<h1>Change Your Password</h1>
-<form action="password.php" method="post">
-	<p>Email Address: <input type="text" name="email" size="20" maxlength="60" value="<?php if (isset($_POST['email'])) echo $_POST['email']; ?>"  /> </p>
-	<p>Current Password: <input type="password" name="pass" size="10" maxlength="20" value="<?php if (isset($_POST['pass'])) echo $_POST['pass']; ?>"  /></p>
-	<p>New Password: <input type="password" name="pass1" size="10" maxlength="20" value="<?php if (isset($_POST['pass1'])) echo $_POST['pass1']; ?>"  /></p>
-	<p>Confirm New Password: <input type="password" name="pass2" size="10" maxlength="20" value="<?php if (isset($_POST['pass2'])) echo $_POST['pass2']; ?>"  /></p>
-	<p><input type="submit" name="submit" value="Change Password" /></p>
-</form>
-
+<center><h2>Russian Spiral</h2></center>
+	</center>
+    </div>
+    
 		<div id="footer">
 		<p></p></footer>
 	</div>

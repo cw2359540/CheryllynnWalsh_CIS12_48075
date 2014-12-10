@@ -8,125 +8,133 @@
 </head>
 
 <style>
-* {
-	border:0;
-	margin:0;
-	padding:0;
-}
 
-/* general */
-a {
-	color:black;
-	text-decoration:none;
-}
-
-a:hover {
-	color:blue;
-	text-decoration:none;
-}
-
-/* body */
+/*body*/
 body {
-	background:	white;
-	color:#555;
-	font:0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
+	background-image: url(photography-camera-nikon-pictures-4.jpg); 
+	background-size: cover;
+	background-repeat: repeat-y;
+	font-size: 220%;
+	background-color: white;
+	Color: black;
+	font: 0.8em Arial, Helvetica, "bitstream vera sans", sans-serif;
 }
 
-/* header */
+/*navigation*/
+
+#navigation .content {
+    border: #48f solid 3px;
+    clear: left;
+    padding: 1em;
+}
+
+#navigation ul {
+    height: 2em;
+    list-style: none;
+    margin: 0;
+    padding: 0;	
+}
+
+#navigation ul li a {
+    background: #EBC299; /* url(tabs.gif);*/
+    color: #008;
+    display: block;
+    float: left;
+    height: 1.5em;
+    padding-left: 20px;
+    text-decoration: none;
+	width:130px;
+}
+
+#navigation li {
+	border-left: 1px solid black:
+    float: left;
+   	margin: 0 1px 0 0;
+}
+
+#navigation a:hover {
+    background-color: #F5E0CC;
+    background-position: 0 -120px;
+}
+
+#navigation a:hover span {
+    background-position: 100% -120px;
+}
+
+#navigation li.current a {
+    background-color: #48f;
+    background-position: 0 -60px;
+    color: #fff;
+    font-weight: bold;
+}
+
+#navigation li.current span {
+    background-position: 100% -60px;
+}
+
+#navigation span {
+    background: url(tabs.gif) 100% 0;
+    display: block;
+    line-height: 2em;
+    padding-right: 10px;
+}
+
+#navigation {
+	margin:0 0 0 190px;
+}
+
+/*header*/
 #header {
-	border-bottom:1px solid purple;
+	border-bottom: 1px solid black;
+	background:#CC6600;
 	height:80px;
-	margin:0 auto;
+	margin: 0 auto;
 	width:751px;
 }
-#header h1 {
-	color:purple;
-	font-size:300%;
-	letter-spacing:-3px;
-	text-align:right;
+
+#header h1	{
+	color: black;
+	font-size: 300%;
+	letter-spacing: -3px;
+	text-align:center;
 	padding:5px;
-	margin-bottom:-20px;
-}
-#header h2 {
-	color:#FF3399;
-	font-size:200%;
-	letter-spacing:-2px;
-	text-align:right;
+	margin-bottom: -20px;
 }
 
-/* navigation */
-#navigation {
-	background:#CC66FF;
-	border-right:1px solid #999;
-	margin:0 auto;
-	width:750px;
-	height:40px;
-	list-style:none;
-}
-#navigation li {
-	border-left:1px solid black;
-	float:left;
-	width:149px;
-	list-style:none;
-}
-#navigation a {
-	color:black;
-	display:block;
-	line-height:40px;
+#header h2	{
+	color: black;
+	font-size: 160%;
+	letter-spacing: -1px;
 	text-align:center;
 }
-#navigation a:hover {
-	background:white;
-	color:purple;
-}
-#navigation .active {
-	background:black;
-	color:black;
+
+/*content*/
+#content	{
+	background: #EBC299;
 }
 
-/* content */
-#content {
-	height:auto;
-	margin:0 auto;
-	padding:0 0 20px;
-	width:751px;
-}
 #content h1 {
-	border-bottom:1px dashed black;
+	border-style: solid;
+    border-bottom-width: 15px;
 	font-size:1.8em;
 	padding:20px 0 0;
 }
+
 #content p {
-	padding:20px 20px 0;
+	text-align: center;
+	font-size: 18px;
 }
 
-/* footer */
-#footer {
-	border-top:1px solid #CC66FF;
-	height:50px;
-	margin:0 auto;
-	padding:10px;
+/*footer*/
+#footer	{
+	border-top: 2px solid black;
+	height: 50px;
+	margin: 0 auto;
+	padding: 10 px;
+	width: 751 px;
 	text-align:center;
-	width:751px;
-}
-
-/* Added by Larry Ullman: */
-.error, .ad {
-	font-weight: bold;
-	color: black
-}
-
-input, select, .input {
-	padding: 5px;
-	font-weight: bold;
-	font-size: 1em;
-	color: purple;
-	background: #FFFFFF;
-	border:1px dotted #004080;
-}
-
-p {
-    font-size: 120%;
+	background:#CC6600;
+	font-size: 15px;
 }
 
 </style>
@@ -134,13 +142,13 @@ p {
 <body>
 	<div id="header">
 		<h1>My Photography Hobby</h1>
-		<br />
 		<h2>By Cheryllynn Walsh</h2>
 	</div>
 	<div id="navigation">
 		<ul>
 			<li><a href="home.php">Home Page</a></li>
 			<li><a href="publice_interface.php">Public Interface</a></li>
+			<li><a href="register.php">Register</a></li>
 			<li><a href="member.php">Member</a></li>
             <li><a href="admin_interface.php">Admin Interface</a></li>
 			<li><a href="password.php">Change Password</a></li>
@@ -149,16 +157,14 @@ p {
 </li>
 		</ul>
 	</div>
+    
 	<div id="content">
-</div>
 
 
 <?php
 	// ECHO out a heading
              echo "<center><h1>Public Interface</h1></center>";
 ?> 
-
-<br />
 
 <center>
 <p>Photograpy is my hobby.</p>
@@ -193,12 +199,11 @@ p {
 	</span>
 	
 <br />
-	
-    <div id="footer">    
-</div>
-
-</center>
-
+	</div>
+    
+    <div id="footer">
+		<p>All PHP and MySQL styles written by Cheryllynn Walsh</p></p></footer>
+	</div>
 </body>
 </html>
 
